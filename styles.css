@@ -1,0 +1,130 @@
+/* Reset some default styles to ensure consistency across browsers */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  main {
+    max-width: 80%;
+    /* max-width: 1024px; */
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Relative positioning example */
+  .relative-box {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Absolute positioning example */
+  .absolute-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f00;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  /* Flexbox Example */
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .item {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  
+  /* Grid Example */
+  .grid-container {
+    display: grid;
+    /* background-color: rgba(249, 250, 251); */
+    border-radius: 20px;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    grid-gap: 20px;
+  }
+  
+  /* Apply common styles to grid items */
+  .grid-container .item {
+    padding: 20px;
+    text-align: center;
+   
+  }
+  
+  img {
+    max-width: 100%;
+    /* width: 80%; */
+    height: 80%;
+    border-radius: 5px;
+  }
+  
+  .main-container {
+    display: grid;
+    grid-template-columns: 30% 70%; 
+   
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .left-container, .right-container {
+    /* Add specific styles if needed for left and right containers */
+  }
+  
+  .right-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .topic-content {
+    margin-bottom: 20px;
+    width:100%; /* Adjust as needed */
+  }
+  .topic-content h1 {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  }
+  .left-container {
+    /* display: flex;
+    flex-direction: row;  */
+}
+p{
+    display: block;
+}
