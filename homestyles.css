@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+nav{
+    
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+   
+}
+
+ul{
+    list-style-type: none;
+   
+}
+li{
+    display: inline;
+}
+a{
+
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+footer{
+    background:black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    color: white;
+    text-align: center;
+}
+body{
+    height: 200px;
+    background-color: rgba(231, 237, 235, 0.209); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgba(224, 132, 208, 0.205), rgb(225, 199, 226));
+  }
+  #home-data{
+    text-align: center;
+    padding-top: 150px;
+  }
+
+/* Projects */
+
+.container{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.text-contaier{
+    margin: 0 20px;
+}
+.text-contaier p{
+    margin: 0 20px;
+}
+.text-container {
+    background-color: red;
+  }
+  
+  .text-container {
+    background-color: green;
+  }
+  
+  .text-container {
+    background-color: blue;
+  }
